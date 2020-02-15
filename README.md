@@ -86,3 +86,23 @@ Searching, Paging and sorting functions for the food menu.
 <img src="/BrowserCompatibility/GoogleChrome.png">
 
 <strong>Unfortunately Firefox browser is not working on my computer so I have no chance to test it</strong>
+
+# Credit for resources used
+
+Front Page Picture:
+https://i.pinimg.com/originals/58/9e/c5/589ec5643739818afd05d08ce686f64d.jpg
+
+Item Picture Apple Juice:
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Apple_juice_with_3apples.jpg/1200px-Apple_juice_with_3apples.jpg
+
+Item Picture Burger:
+https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/16961-bbq-pulled-pork-burger-600x600.jpg?ext=.jpg
+
+Item Picture Coke:
+https://images-na.ssl-images-amazon.com/images/I/51uJdR27f7L._SX425_.jpg
+
+Bootstrap v3.3.7:
+https://getbootstrap.com/docs/3.3/
+
+JQuery v3.3.1:
+https://jquery.com/
