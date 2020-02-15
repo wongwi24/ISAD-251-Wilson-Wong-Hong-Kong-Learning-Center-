@@ -1,0 +1,4 @@
+﻿INSERT INTO [dbo].[__MigrationHistory] ([MigrationId], [ContextKey], [Model], [ProductVersion]) VALUES (N'202001151614511_InitialCreate', N'WilsonTeaRoom.Models.ApplicationDbContext', <Binary Data>, N'6.2.0-61023')
+INSERT INTO [dbo].[__MigrationHistory] ([MigrationId], [ContextKey], [Model], [ProductVersion]) VALUES (N'202001160651206_isvisible', N'WilsonTeaRoom.Models.ApplicationDbContext', <Binary Data>, N'6.2.0-61023')
+INSERT INTO [dbo].[__MigrationHistory] ([MigrationId], [ContextKey], [Model], [ProductVersion]) VALUES (N'202002091628555_OrderModelChange', N'WilsonTeaRoom.Models.ApplicationDbContext', <Binary Data>, N'6.2.0-61023')
+INSERT INTO [dbo].[__MigrationHistory] ([MigrationId], [ContextKey], [Model], [ProductVersion]) VALUES (N'202002130902352_OrderRequirement', N'WilsonTeaRoom.Models.ApplicationDbContext', <Binary Data>, N'6.2.0-61023')
