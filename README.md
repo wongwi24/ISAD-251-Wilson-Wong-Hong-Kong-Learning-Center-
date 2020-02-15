@@ -9,7 +9,7 @@ login name and password for the app:
 (Admin) name= admin@outlook.com pwd= Admin12345.(not to leave out dot in the end)
 (Other Users) name= guest@outlook.com pwd= Ab12345.  name= guest1@outlook.com pwd= Ab12345.
 
-<strong>Database is inside the App_Data folder of the Project folder.</strong>
+<strong>Database .mdf file is inside the App_Data folder of the Project folder.</strong>
 
 # How to use
 This is a web application for an imaginary Tea house which allows customers to order drinks and foods and is a minimum viable product that is not recommended to use it in real life. The application and the database is not currently host in any external server but it has been tested to run on local machine. 
@@ -30,4 +30,32 @@ Basic security features with simple authentication using email and password.
 
 Searching, Paging and sorting functions for the food menu.
 
+<img src="/PrototypePageImages/Register.png">
 
+<img src="/PrototypePageImages/Login.png">
+
+<img src="/PrototypePageImages/AdminMain.png">
+
+<img src="/PrototypePageImages/ProductPageAdmin.png">
+
+<img src="/PrototypePageImages/CreateProduct.png">
+
+<img src="/PrototypePageImages/EditProduct.png">
+
+<img src="/PrototypePageImages/DeleteProduct.png">
+
+<img src="/PrototypePageImages/Order.png">
+
+<img src="/PrototypePageImages/OrderDetails.png">
+
+<img src="/PrototypePageImages/CategoryPage.png">
+
+<img src="/PrototypePageImages/CustomerMain.png">
+
+<img src="/PrototypePageImages/ContinueOrCheckout.png">
+
+<img src="/PrototypePageImages/Cart.png">
+
+<img src="/PrototypePageImages/CheckoutForm.png">
+
+<img src="/PrototypePageImages/CompletePage.png">
