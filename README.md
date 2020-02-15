@@ -29,33 +29,49 @@ Admin can view the order history and details.
 Basic security features with simple authentication using email and password.
 
 Searching, Paging and sorting functions for the food menu.
+# ScreenShots
 
+<strong>Register page</strong>
 <img src="/PrototypePageImages/Register.png">
 
+<strong>Login page</strong>
 <img src="/PrototypePageImages/Login.png">
 
+<strong>Admin Main page</strong>
 <img src="/PrototypePageImages/AdminMain.png">
 
+<strong>Food Menu Page</strong>
 <img src="/PrototypePageImages/ProductPageAdmin.png">
 
+<strong>Create Item Page</strong>
 <img src="/PrototypePageImages/CreateProduct.png">
 
+<strong>Edit Item Page</strong>
 <img src="/PrototypePageImages/EditProduct.png">
 
+<strong>Delete Item Page</strong>
 <img src="/PrototypePageImages/DeleteProduct.png">
 
+<strong>Order History</strong>
 <img src="/PrototypePageImages/Order.png">
 
+<strong>Details of particular order</strong>
 <img src="/PrototypePageImages/OrderDetails.png">
 
+<strong>Category Page</strong>
 <img src="/PrototypePageImages/CategoryPage.png">
 
+<strong>Customer Main Page</strong>
 <img src="/PrototypePageImages/CustomerMain.png">
 
+<strong>Popup Message When User Click Add to Cart Button</strong>
 <img src="/PrototypePageImages/ContinueOrCheckout.png">
 
+<strong>ShoppingCart</strong>
 <img src="/PrototypePageImages/Cart.png">
 
+<strong>Fill in Personal Info After Clicking Checkout in Cart</strong>
 <img src="/PrototypePageImages/CheckoutForm.png">
 
+<strong>Complete Page Shown When Order Complete</strong>
 <img src="/PrototypePageImages/CompletePage.png">
