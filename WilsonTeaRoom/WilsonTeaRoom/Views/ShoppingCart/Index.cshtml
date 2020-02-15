@@ -1,0 +1,80 @@
+﻿@model WilsonTeaRoom.ViewModels.ShoppingCartViewModel
+@{
+    ViewBag.Title = "Shopping Cart";
+}
+<script src="~/Scripts/jquery-3.3.1.min.js"
+        type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".RemoveLink").click(function () {
+            var itemToDelete = $(this).attr("data-id");
+            if (itemToDelete != '') {
+                $.post("/ShoppingCart/RemoveFromCart", {"id": itemToDelete },
+                    function (data) {
+                        if (data.ItemCount == 0) {
+                            $('#row-' + data.DeleteId).fadeOut('slow');
+                        } else {
+                            $('#item-count-' + data.DeleteId).text(data.ItemCount);
+                        }
+                        $('#cart-total').text(data.CartTotal);
+                        $('#update-message').text(data.Message);
+                        $('#cart-status').text('Cart (' + data.CartCount + ')');
+                    });
+            }
+        });
+    });
+
+</script>
+<h3>
+    <em>Review</em> your cart:
+</h3>
+<div id="update-message">
+</div>
+<table class="table table-striped">
+    <tr>
+        <th>
+            Food Name
+        </th>
+        <th>
+            Price (each)
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.CartItems)
+    {
+        <tr id="row-@item.FoodId">
+            <td>
+                @item.Food.Name
+            </td>
+            <td>
+                @item.Food.Price
+            </td>
+            <td id="item-count-@item.FoodId">
+                @item.Count
+            </td>
+            <td>
+                <a href="#" class="RemoveLink"
+                   data-id="@item.FoodId">
+                    Remove
+                    from cart
+                </a>
+            </td>
+        </tr>
+    }
+    <tr>
+        <td>
+            Total
+        </td>
+        <td></td>
+        <td></td>
+        <td id="cart-total">
+            @Model.CartTotal
+        </td>
+    </tr>
+</table>
+<button type="button" class="btn btn-success btn-sm" onclick="location.href='@Url.Action("Checkout", "Checkout")'">
+    Check Out
+</button>
