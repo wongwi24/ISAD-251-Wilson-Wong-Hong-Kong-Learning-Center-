@@ -77,6 +77,9 @@ Searching, Paging and sorting functions for the food menu.
 <strong>Complete Page Shown When Order Complete</strong>
 <img src="/PrototypePageImages/CompletePage.png">
 
+<strong>Contact Page</strong>
+<img src="/PrototypePageImages/ContactPage.png">
+
 # Browser Compatibility Test
 
 <strong>Google Chrome</strong>
